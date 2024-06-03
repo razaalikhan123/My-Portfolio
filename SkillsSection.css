@@ -1,0 +1,25 @@
+/* src/components/SkillsSection.css */
+
+#skills {
+  text-align: center; /* Align text content in the center */
+}
+
+.skills-list {
+  display: flex; /* Use flexbox layout */
+  justify-content: center; /* Center children horizontally */
+  align-items: center; /* Center children vertically */
+  flex-wrap: wrap; /* Allow skills to wrap to the next line if necessary */
+}
+
+.skill-card {
+  margin: 10px; /* Add some spacing between skill cards */
+}
+
+.skill-icon {
+  font-size: 3rem; /* Adjust icon size as needed */
+  margin-bottom: 10px; /* Add space between icon and skill name */
+}
+
+.skill-icon svg {
+  /* Additional styling for icons if needed */
+}
